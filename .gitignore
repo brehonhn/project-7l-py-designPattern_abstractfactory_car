@@ -1,0 +1,44 @@
+# -------------------------
+# Python cache files
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test caches
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE - PyCharm / IntelliJ
+.idea/
+*.iml
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific
+files/*
+files/*.bak
+files/*.tmp
+files/*.json
+files/*.xml
